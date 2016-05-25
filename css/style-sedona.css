@@ -1,0 +1,297 @@
+body {
+	width: 1280px;
+	font-family: 'PT Sans', sans-serif;
+	background-color: #ffffff;
+	color: #333333;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+.clearfix:after {
+	content: "";
+	display: table ;
+	clear: both;
+}
+
+.main-navigation {
+	height: 55px;
+}
+
+.main-navigation a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.main-navigation ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+}
+
+.main-navigation li {
+   display: inline-block;
+   vertical-align: top;
+   font-size: 14px;
+   line-height: 26px;
+   font-weight: bold;
+   margin-top: 15px;
+   text-transform: uppercase;
+
+}
+
+.main-navigation li:nth-child(1) {
+	margin-left: 90px;
+}
+
+.main-navigation li:nth-child(2) {
+	margin-left: 163px;
+}
+
+.main-navigation li:nth-child(3) {
+	margin-left: 384px;
+}
+
+.main-navigation li:nth-child(4) {
+	margin-left: 142px;
+}
+
+.main-photo {
+	width: 1200px;
+	margin-bottom: 10px;
+}
+.block-1 {
+	min-height: 730px;
+	
+}
+
+.contens {
+	display: block;
+	min-height: 195px;
+	
+}
+.contens1 {
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 21px;
+	line-height:26px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+
+}
+
+.cause {
+	display: block;
+	text-align: center;
+	font-size: 14px;
+	line-height:26px;
+	text-transform: uppercase;
+}
+
+.number-one {
+	float: left;
+	width: 400px;
+	min-height: 256px;
+	background-color:#99cccc;
+	text-align: center;
+	color: #ffffff;
+}
+
+.contens-1 {
+	display: block;
+	font-size: 21px;
+	line-height:26px;
+	text-transform:uppercase;
+	font-weight: bold;
+	padding-top: 56px;
+	padding-bottom: 20px;
+}
+
+.number {
+	display: block;
+	font-size: 14px;
+	line-height:21px;
+	padding-bottom: 30px;
+	text-transform: uppercase;
+}
+
+.contens-2 {
+	display: block;
+	font-size:14px; 
+	line-height:21px;
+	text-transform: uppercase;
+}
+
+.foto-sedona {
+	float: right;
+}
+
+.picture,
+.benefit,
+.content-benefit,
+.advantage,
+.discription-advantage,
+.number-advantage {
+	float:left;
+	text-align: center;
+	width: 400px;
+	min-height: 255px;
+	box-sizing: border-box;
+	background-color: #eeeeee;
+}
+
+.advantage1,
+.advantage2,
+.advantage3 {
+	display: block;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 56px;
+	line-height: 26px;
+	font-size:21px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+}
+
+.number-advantage1 {
+	display: block;
+	padding-bottom: 30px;
+	line-height: 21px;
+	font-size:14px;
+}
+
+.discription-advantage1 {
+ display: block;
+ line-height: 21px;
+ font-size:14px;
+ text-transform: uppercase;
+}
+
+.house,
+.eat,
+.souvenir {
+	display: block;
+	margin-left: 160px;
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
+
+.content-benefit .souvenir {
+   margin-top: 55px;
+}
+
+.benefit1,
+.benefit2,
+.benefit3 {
+	display: block;
+	line-height: 26px;
+	font-weight: 21px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.discription-housing,
+.discription-eating,
+.discription-souvenir {
+	display: block;
+	line-height: 21px;
+	font-weight: 14px;
+	text-transform: uppercase;
+}
+
+.bridge {
+	display: inline-block;
+}
+
+.discription-bridge {
+	float: right;
+	background-color: #99cccc;
+	min-height: 257px;
+	width: 400px;
+	text-align: center;
+	box-sizing: border-box;
+	color: white;
+}
+
+.bridge1 {
+	display: block;
+	font-weight: bold;
+	line-height: 26px;
+	font-weight: 21px;
+	text-transform: uppercase;
+	padding-top: 56px;
+}
+
+.bridge2 {
+	display: block;
+	line-height: 21px;
+	font-size:14px;
+	padding-top: 20px;
+}
+
+.bridge3 {
+	display: block;
+	line-height: 21px;
+	font-size:14;
+	text-transform: uppercase;
+	padding-top: 32px;
+}
+
+
+.block-3 {
+    text-align: center;
+	display: block;
+	min-height: 336px;
+	background-color:#ffffff;
+}
+
+.interest {
+	display: block;
+	padding-top: 55px;
+	text-transform: uppercase;
+	line-height:30px; 
+	font-size:26px;
+	font-weight:bold;
+	padding-bottom: 40px;
+}
+
+.date {
+	display: block;
+	line-height:24px; 
+	font-size:14px;
+	text-transform: uppercase;
+	padding-bottom: 50px;
+}
+
+.book {
+	width: 460px;
+	min-height: 60px;
+	background-color: #99cccc;
+	box-sizing: border-box;
+	margin-left: 370px;
+}
+
+.book a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	line-height: 26px;
+	font-size: 21px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 19px;
+
+}
+
+footer {
+	display: block;
+	min-height: 120px;
+	background-color: yellow;
+}
