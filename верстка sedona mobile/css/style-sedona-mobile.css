@@ -1,0 +1,423 @@
+body{
+	width: 320px;
+	margin: 0 auto;
+	padding: 0 auto;
+	font-family: 'PT Sans', sans-serif;
+	outline: 1px solid black;
+}
+ .container {
+ 	width: 320px;
+ }
+
+.clearfix:after {
+	content: "";
+	display: table ;
+	clear: both;
+}
+
+.main-navigation {
+	position: relative;
+	display: inline-block;
+	min-height: 180px;
+	background-color: #81b3d2;
+	font-size: 0;
+	
+}
+
+.close {
+	position: absolute;
+	right: 20px;
+	top:15px;
+	width: 25px;
+	height: 25px;
+	font-size: 0;
+	background-color: #81b3d2;
+	border: 0;
+	outline: none;
+	cursor: pointer;
+}
+
+.close::before,
+.close::after {
+	content: "";
+	position: absolute;
+	bottom:10px;
+	right:-3px;
+	width: 30px;
+	height: 4px;
+	background-color: #ffffff;
+}
+
+.close::before {
+	transform: rotate(45deg);
+}
+
+.close::after {
+	transform: rotate(-45deg);
+}
+
+
+.menu a {
+	text-decoration: none;
+	color: #ffffff;
+	line-height: 40px;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-top: 20px;
+
+}
+
+.menu {
+	display:inline-block;
+	min-height: 45px;
+	width: 320px;
+	border-bottom: 1px solid #678fa8;
+	border-top:1px solid #9ac2db;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 7px;
+
+}
+
+.menu:nth-child(1) {
+	border-top: none;
+}
+
+.catalog {
+	position: relative;
+	display: block;
+	min-height: 55px;
+}
+
+.logotip-mobile {
+	position: absolute;
+	right: 110px;
+}
+
+.line2 {
+	float: right;
+	position: relative;
+	width: 23px;
+	height: 3px;
+	background-color: #81b3d2;
+	border-top: 1px solid #c0d9e8;
+	border-bottom: 1px solid #c0d9e8;
+	margin-top: 25px;
+	margin-right: 20px;
+}
+
+.line2::before {
+	position:absolute;
+	content: '';
+	display: block;
+	position: absolute;
+	width: 23px;
+	height: 4px;
+	background-color: #81b3d2;
+	top:8px;
+}
+
+.line2::after {
+	position:absolute;
+	content: '';
+	display: block;
+	position: absolute;
+	width: 23px;
+	height: 4px;
+	background-color: #81b3d2;
+	bottom:8px;
+}
+
+.foto-sedona {
+	display: block;
+	min-height: 389px;
+	background: url("../img/back-mobile.png");
+	padding-top: 90px;
+	box-sizing: border-box;
+}
+
+.foto-sedona1 {
+	display: block;
+	padding-left: 20px;
+}
+
+.triagle {
+	padding-left: none;
+	padding-top: 28px;
+}
+
+.block-1 {
+	height: 225px;
+	box-sizing: border-box;
+	
+	text-align: center;
+	
+}
+
+.discription {
+	display: inline-block;
+	line-height: 26px;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	margin-top: 46px;
+}
+
+.cause {
+	display: inline-block;
+	line-height: 26px;
+	font-weight: 14px;
+	text-transform: uppercase;
+	color: #666666;
+	
+}
+
+.block-2 {
+	display: block;
+	width: 320px;
+	text-align: center;
+	vertical-align: top;
+}
+
+.cause-1 {
+	display: inline-block;
+	position: relative;
+	width: 320px;
+	background-color: #81b3d2;
+	min-height:210px;
+	vertical-align: top;
+	text-align: center;
+}
+
+.triagle1 {
+	position: absolute;
+	
+}
+
+.contens-1 {
+	display: block;
+	margin-top: 55px;
+	margin-bottom: 20px;
+	font-style: 26px;
+	line-height: 18px;
+	font-weight: bold;
+	color: white;
+	text-transform: uppercase;
+}
+
+.number {
+	display: block;
+	color: white;
+	text-transform: uppercase;
+	font-style: 21px;
+	line-height: 14px;
+	margin-bottom: 25px;
+}
+
+.contens-2 {
+	display: block;
+	color: white;
+	text-transform: uppercase;
+	font-style: 21px;
+	line-height: 14px;
+}
+
+.picture-big {
+	display: block;
+	min-height: 415px;
+	
+	text-align: left;
+	box-sizing: border-box;
+}
+
+.house {
+	float: left;
+	margin-top: 25px;
+	margin-left: 20px;
+	width: 40px;
+}
+
+.benefit {
+	float: left;
+    margin-left: 20px;
+	margin-top: 32px;
+}
+
+.benefit1 {
+	display: block;
+	line-height: 26px;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 9px;
+}
+
+.discription-housing {
+	display: block;
+	line-height: 21px;
+	font-size: 14px;
+	color: #7d7d7d;
+	text-transform: uppercase;
+	
+}
+.bridge {
+	display: block;
+}
+
+.advantage {
+	display: block;
+	min-height: 168px;
+	background-color: #eeeeee;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.advantage1 {
+	display: block;
+	line-height:26px; 
+	font-size:18px;
+	font-weight:bold;
+	text-transform: uppercase;
+	padding-top: 30px;
+}
+
+.number-advantage {
+	display: block;
+	line-height:21px; 
+	font-size:14px;
+	color: #666666;
+	margin-top: 13px;
+}
+
+.discription-advantage {
+	display: block;
+	line-height:21px; 
+	font-size:14px;
+	color: #666666;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+
+.line {
+	width: 280px;
+	border: 1px solid #d6d6d6;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+.block-4 {
+	display: block;
+	text-align: center;
+	
+	min-height: 288px;
+	box-sizing: border-box;
+}
+
+.interest {
+	display: block;
+	font-style: bold;
+	font-size: 21px;
+	line-height: 26px;
+	text-transform: uppercase;
+	padding-top: 30px;
+}
+
+.date {
+	display: block;
+	font-size: 14px;
+	line-height:24px;
+	color: #333333;
+	text-transform: uppercase;
+	padding-top: 25px;
+}
+
+.book a {
+	text-decoration: none;
+	color: #ffffff;
+	font-style: bold;
+	font-size: 21px;
+	line-height: 26px;
+	text-transform: uppercase;
+}
+
+.btn {
+	display: block;
+	width: 280px;
+	height: 60px;
+	background-color: #81b3d2;
+	margin-left: 20px;
+	box-sizing: border-box;
+	text-align: center;
+	padding-top: 18px;
+	margin-top: 40px;
+}
+
+.map {
+	display: block;
+	position: relative;
+}
+
+.marker {
+	position: absolute;
+	left: 145px;
+	top:160px;
+}
+
+footer {
+	display: block;
+	
+	height: 243px;
+}
+
+footer a  {
+	display: block;
+	text-decoration: none;
+	color: #000000;
+	line-height: 21px;
+	font-size:26px;
+	font-style:bold;
+	text-align: center;
+	padding-top: 42px;
+	padding-bottom: 40px;
+}
+
+.social-btn {
+	background-color: #81b3d2;
+}
+
+.social-btn-tw{
+	display: inline-block;
+	padding: 14px 15px;
+	margin-left: 84px;
+}
+
+.social-btn-fb {
+	display: inline-block;
+	padding: 14px 19px;
+}
+
+.social-btn-in {
+	display: inline-block;
+	padding: 14px 
+}
+
+.html {
+	display: block;
+    height: 95px;
+}
+
+.academy {
+	float: left;
+	font-weight: 14px;
+	line-height:26px;
+	color: #333333;
+	text-transform: uppercase;
+    margin-left: 95px;
+    margin-top: 47px;
+}
+
+.html a {
+	float: left;
+    margin-left: 15px;
+}
