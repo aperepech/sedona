@@ -135,6 +135,7 @@ body{
 	background: url("../img/back-mobile.png");
 	padding-top: 90px;
 	box-sizing: border-box;
+	font-size: 0;
 }
 
 .foto-sedona1 {
@@ -148,9 +149,10 @@ body{
 }
 
 .block-1 {
+	display: block;
 	height: 225px;
 	box-sizing: border-box;
-	
+	font-size: 0;
 	text-align: center;
 	
 }
@@ -168,7 +170,7 @@ body{
 .cause {
 	display: inline-block;
 	line-height: 26px;
-	font-weight: 14px;
+	font-size: 14px;
 	text-transform: uppercase;
 	color: #666666;
 	
@@ -200,8 +202,8 @@ body{
 	display: block;
 	margin-top: 55px;
 	margin-bottom: 20px;
-	font-style: 26px;
-	line-height: 18px;
+	font-size: 18px;
+	line-height: 26px;
 	font-weight: bold;
 	color: white;
 	text-transform: uppercase;
@@ -211,8 +213,8 @@ body{
 	display: block;
 	color: white;
 	text-transform: uppercase;
-	font-style: 21px;
-	line-height: 14px;
+	font-size: 14px;
+	line-height: 21px;
 	margin-bottom: 25px;
 }
 
@@ -220,8 +222,8 @@ body{
 	display: block;
 	color: white;
 	text-transform: uppercase;
-	font-style: 21px;
-	line-height: 14px;
+	font-size: 14px;
+	line-height: 21px;
 }
 
 .picture-big {
@@ -421,3 +423,387 @@ footer a  {
 	float: left;
     margin-left: 15px;
 }
+
+
+
+
+
+.foto-sedona3 {
+	display: block;
+	height: 215px;
+	background: url("../img/back-mobile1.png");
+	padding-top: 110px;
+	padding-left: 26px;
+	box-sizing: border-box;
+	font-size: 0;
+}
+
+.catalog1 {
+	position: relative;
+}
+
+.triagle10 {
+	display: block;
+	transform: translate(-26px, 10px);
+}
+	
+.foto-video {
+	display: inline-block;
+	height: 190px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.diskription-foto1 {
+	display: block;
+	line-height: 26px;
+	font-size:18px;
+	font-weight:bold;
+	text-transform: uppercase;
+	padding-top: 40px;
+	padding-left: 90px;
+	
+}
+
+.diskription-foto2 {
+	display: block;
+	text-align: center;
+	font-size: 14px;
+	line-height: 24px;
+	text-transform: uppercase;
+	color: #333333;
+	padding-top: 31px;
+}
+
+.foto-sedona-mobile {
+	display:block;
+	height: 414px;
+	padding-top: 20px;
+	border-bottom: 1px solid #e5e5e5;
+	box-sizing: border-box;
+}
+
+.foto-sedona-mobile img {
+	display: block;
+	padding-left: 22px;
+}
+.discription-road {
+	display:block;
+	text-align: left;
+	font-weight: bold;
+	line-height: 24px;
+	font-size:14px;
+	text-transform: uppercase;
+	padding-top: 17px;
+	padding-left: 22px;
+}
+
+.creator {
+	display:block;
+	text-align: left;
+	padding-left: 22px;
+	line-height: 24px;
+	font-size:14px;
+	color: #333333;
+	padding-top: 5px;
+}
+
+.foto-sedona-mobile a {
+	display: inline-block;
+	text-align: left;
+	padding-left: 22px;
+	padding-top: 8px;
+	padding-right: 15px;
+}
+
+.foto-sedona-mobile button {
+	display: inline-block;
+	text-align: left;
+	padding-left: 22px;
+	padding-top: 8px;
+	padding-right: 15px;
+	border: none;
+	outline: none;
+	font-size: none;
+	cursor: pointer;
+	text-decoration: none;
+	background-color: white;
+}
+
+
+.like {
+	display: inline-block;
+	font-weight: bold;
+	line-height: 24px;
+	font-size:14px;
+	transform: translateY(-2px);
+}
+
+.end-foto {
+	display: block;
+	text-align: center;
+	height: 194px;
+	box-sizing: border-box;
+}
+
+.end {
+	display: block;
+	line-height: 26px;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 36px;
+}
+
+.end1 {
+	display: block;
+	line-height: 24px;
+	font-size: 14px;
+	color: #333333;
+	margin-top: 31px;
+	text-transform: uppercase;
+}
+
+
+
+
+
+.recall {
+	display: block;
+	height: 205px;
+	text-align: center;
+	box-sizing: border-box;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.you-recall {
+	display: block;
+	margin-top:40px; 
+	line-height:26px;
+	font-size: 18px;
+	font-weight:bold;
+	text-transform: uppercase;
+}
+
+.discription-recall {
+	display: block;
+	margin-top: 30px;
+	line-height:24px;
+	font-size:14px;
+	color: #696969;
+	text-transform: uppercase;
+}
+
+.your-name {
+	display: block;
+	height: 305px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #e5e5e5;
+    font-size: none;
+}
+
+.by-asking {
+	display: block;
+	text-align: center;
+	line-height:26px;
+	font-size: 18px;
+	font-weight:bold;
+	text-transform: uppercase;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+	
+}
+
+.name {
+	display: inline-block;
+	line-height: 26px;
+	font-size: 14px;
+	color: #696969;
+	text-transform: uppercase;
+	margin-left: 20px;
+	margin-right: 20px;
+	}
+
+.name1 {
+	line-height: 26px;
+	font-size: 14px;
+	color: #696969;
+	text-transform: uppercase;
+	margin-left: 20px;
+	margin-bottom: 35px;
+
+}
+
+.text-login {
+	display: inline-block;
+    height: 55px;
+    width: 210px;
+    padding-left: 20px;
+    line-height: 26px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    background-color: #f2f2f2;
+    border:none;
+    }
+
+.surname {
+	display:inline-block;
+	margin-right: 18px;
+}
+
+.surname1 {
+	display: inline-block;
+	height: 55px;
+	width: 175px;
+	padding-left: 20px;
+    line-height: 26px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    background-color: #f2f2f2;
+    border:none;
+}
+
+.patronymic {
+	display: inline-block;
+	margin-right: 16px;
+}
+
+.patronymic1 {
+	display: inline-block;
+	height: 55px;
+	width: 176px;
+	padding-left: 20px;
+    line-height: 26px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    background-color: #f2f2f2;
+    border:none;
+}
+
+.contact {
+	display: block;
+	height: 318px;
+	border-bottom: 1px solid #e5e5e5;
+
+}
+
+.your-contact {
+	display: block;
+	line-height: 26px;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-top: 20px;
+	margin-left: 39px;
+	padding-bottom: 15px;
+
+}
+
+.telephone {
+	display: inline-block;
+	margin-left: 40px;
+	line-height: 26px;
+	font-size: 14px;
+	color: #696969;
+	text-transform: uppercase;
+	padding-bottom: 5px;
+}
+
+.phone1 {
+	display: inline-block;
+	margin-left: 20px;
+	width: 200px;
+	padding-left:20px;
+	height: 52px;
+	background-color: #f2f2f2;
+	font-weight: bold;
+	border:none;
+}
+
+.icon-phone {
+	display: inline-block;
+	padding-top:14px;
+	padding-bottom: 17px;
+	padding-left: 19px;
+	padding-right: 19px;
+	background-color: #e6e6e6;
+	margin-left: -4px;
+}
+
+.error {
+	display: block;
+	font-size: 14px;
+	line-height: 26px;
+	color: #ff7979;
+	margin-left: 42px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.icon-e-mail {
+	display: inline-block;
+	padding: 17px 21px;
+	background-color:#e6e6e6;
+	margin-left: -4px;
+
+}
+
+.impress {
+	display: block;
+	height: 290px;
+	border-bottom: 1px solid #e5e5e5;
+
+}
+
+.impress h2 {
+	line-height:26px; 
+	font-size:18px;
+	text-transform: uppercase;
+	margin-top: 14px;
+	font-weight: bold;
+	margin-left: 30px;
+}
+
+.radio-label {
+	float: right;
+	padding-left: 100px;
+	line-height: 26px;
+	font-size: 18px;
+	font-weight: bold;
+	outline: 1px solid black;
+
+	
+}
+
+.recall5 input {
+	display: block;
+	margin-left: 20px;
+	outline: 1px solid red;
+}
+
+.recall5 input:nth-child(1){
+	margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
