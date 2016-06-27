@@ -67,31 +67,35 @@
       <div class="icon-e-mail">
        <img src="img/mail.png" alt="e-mail">
       </div>
+      
       </div>
       <div class="impress">
         <h2>ваше общее впечатление:</h2>
         <div class="recall5">
-        <input type="radio" id="grid1" name="grid" value="1" checked><br>
-        <input type="radio" id="grid2" name="grid" value="2"><br>
+        <input type="radio" id="grid1" name="grid" value="1" checked>
+        <label for="grid1" class="radio-label text">Cкорее положительное</label><br>
+        <input type="radio" id="grid2" name="grid" value="2">
+        <label for="grid2" class="radio-label text">Скорее отрицательное</label><br>
         <input type="radio" id="grid3" name="grid" value="3">
-        <label for="grid1" class="radio-label">скорее положительное</label>
-        <label for="grid2" class="radio-label">скорее отрицатьльное</label>
-        <label for="grid3" class="radio-label">затрудняюсь ответить</label>
+        <label for="grid3" class="radio-label text">Затрудняюсь ответить</label>
       </div>
       </div>
        <div class="sight">
+          <h2>посещенные достопромечательности</h2>
+          <div class=recall6>
           <input type="checkbox" id="checkbox1" name="bridge" value="1" checked>
+          <label for="checkbox1" class="checkbox-label text">Мост дьявола</label><br>
           <input type="checkbox" id="checkbox2" name="park" value="2" checked>
+          <label for="checkbox2" class="checkbox-label text">Слайд парк</label><br>
           <input type="checkbox" id="checkbox3" name="mountain" value="3">
+          <label for="checkbox3" class="checkbox-label text">Гора-Колокол</label><br>
           <input type="checkbox" id="checkbox4" name="rock" value="4" checked>
-          <label for="checkbox1" class="checkbox-label">Мост дьявола</label>
-          <label for="checkbox2" class="checkbox-label">Слайд парк</label>
-          <label for="checkbox3" class="checkbox-label">Гора-Колокол</label>
-          <label for="checkbox4" class="checkbox-label">Красные скалы</label>
+          <label for="checkbox4" class="checkbox-label text">Красные скалы</label>
+          </div>
        </div>
        <div class="emotions">
-       <label><span class="diskription-emotions">опишите свои эмоции:</span><textarea id="text-emotions" name="diskription-emotion">опишите подробно все свои восторги</textarea></label>
-       <input type="sabmit" class="send2" id="send" placeholder="отправить отзыв">
+       <label><span class="diskription-emotions">опишите свои эмоции:</span><textarea id="text-emotions" name="diskription-emotion">Опишите подробно все свои восторги</textarea></label>
+       <input type="submit" class="send2" id="send" placeholder="отправить отзыв">
        </div>
       </form>
     </main>
