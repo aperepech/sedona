@@ -1,7 +1,7 @@
 body{
 	width: 320px;
 	margin: 0 auto;
-	padding: 0 auto;
+	padding: 0;
 	font-family: 'PT Sans', sans-serif;
 	outline: 1px solid black;
 }
@@ -434,6 +434,7 @@ footer a  {
 	text-transform: uppercase;
     margin-left: 95px;
     margin-top: 47px;
+    font-weight: bold;
 }
 
 .html a {
@@ -798,14 +799,11 @@ footer a  {
 	margin-bottom: 45px;
 }
 
-.recall5 input,
-.recall6 input{
-	display: none;
 
-}
 
 .radio-label {
 	display: inline-block;
+	position: relative;
 	margin-left: 100px;
 	margin-bottom: 40px;
 
@@ -817,6 +815,7 @@ footer a  {
 	line-height: 26px;
 	font-size: 18px;
 	font-weight: bold;
+	padding-left: 0;
 }
 
 .radio-label:before {
@@ -826,6 +825,11 @@ footer a  {
     width: 56px;
     height: 56px;
     transform: translate(-80px, -10px);
+}
+
+.recall5 input,
+.recall6 input {
+	display: none;
 }
 
 #grid1:checked ~ label[for="grid1"]:before,
@@ -851,7 +855,7 @@ footer a  {
 
 .checkbox-label {
 	display: block;
-	
+	position: relative;
 	margin-bottom: 35px;
 	margin-left: 100px;
 }
@@ -863,8 +867,8 @@ footer a  {
     background: url("../img/Layer28copy5.png"); no-repeat;
     width: 56px;
     height: 56px;
-    left: 20px;
-    transform: translateY(-20px);
+    left: -80px;
+    top:-18px;
 
     
 }
@@ -934,7 +938,8 @@ body,
 .triagle10,
 .foto-sedona-mobile img,
 .foto-sedona1,
-.video-sedona
+.video-sedona,
+.please
 
 
 {
@@ -1145,6 +1150,7 @@ footer a{
 .visit {
 	float:left;
 	margin-left: 60px;
+	font-weight: bold;
 }
 
 .social-network {
@@ -1285,26 +1291,13 @@ footer a{
 	font-size: 26px;
 }
 
-.your-name {
-
-}
-
-.mobile-form {
-	display: none;
-}
-
-.tablet-form {
-	display: block;
-	height:1432px;
-	width: 768px;
-	
-}
-
 .impress {
-	display: inline-block;
+	display:block;
+	position: absolute;
 	height: 315px;
 	width: 384px;
 	transform: translateY(-20px);
+	top:642px;
 
 }
 
@@ -1317,15 +1310,15 @@ footer a{
 }
 
 .your-name {
-	display: inline-block;
+	display: block;
+	position: relative;
+	float: right;
     height: 315px;
 	width: 384px;
 	border-bottom: none;
 }
 
-.by-asking {
-	transform: translateY(-5px);
-}
+
 
 .contact {
 	display: inline-block;
@@ -1360,9 +1353,26 @@ footer a{
 
 .sight {
 	display: inline-block;
-	position: relative;
 	width: 768px;
+	height: 350px;
 	border: none;
+}
+
+.recall-left {
+	display: inline-block;
+	width: 234px;
+    margin-left: 130px;
+}
+
+.recall-right {
+	display: inline-block;
+	width: 334px;
+	margin-left: 30px;
+
+}
+
+.checkbox-label {
+	padding-left: 2px;
 }
 
 .sight h2 {
@@ -1370,36 +1380,14 @@ footer a{
     width: 230px;
 }
 
-.sight h2::before{
-    position:absolute;
-	content: '';
-	display: block;
-	width: 125px;
-	height: 1px;
-	background-color: #dbdbdb;
-	left: 0;
-	top:46px;
-	
-}
 
-.sight h2::after{
-    position:absolute;
-	content: '';
-	display: block;
-	width: 125px;
-	height: 1px;
-	background-color:#dbdbdb;
-    left:643px;
-    top:46px;
-
-}
 
 .checkbox-label {
 	display: inline-block;
 }
 
 .checkbox-label {
-    padding-left: 60px;
+    
 }
 
 .emotions {
@@ -1442,57 +1430,9 @@ textarea {
 
 }
 
-.recall6,
- input {
-	display: none;
-}
 
-.recall6-tablet{
-	display: inline-block;
-	
-	height: 200px;
-	width: 768px;
-	text-align: left;
-}
 
-.text1 {
-	display:inline-block;
-	position: relative;
-	font-size:18px; 
-	line-height:26px;
-	font-weight: bold;
-	margin-bottom: 80px;
-	
-}
 
-.text3 {
-	margin-right: 146px;
-	margin-left: 234px;
-}
-
-.text5 {
-	margin-left: 234px;
-    margin-right: 166px;
-}
-
-.text1:before {
-    content: "" ;
-    position: absolute;
-    display: block;
-    background: url("../img/Layer28copy5.png"); no-repeat;
-    width: 56px;
-    height: 56px;
-    left:-70px;
-    top:-20px;
-
-  }
-
- #checkbox1:checked ~ label[for="checkbox1"]:before,
- #checkbox2:checked ~ label[for="checkbox2"]:before,
- #checkbox3:checked ~ label[for="checkbox3"]:before,
- #checkbox4:checked ~ label[for="checkbox4"]:before {
- background: url(../img/qw5.gif) no-repeat;
- }
 
 
  }
